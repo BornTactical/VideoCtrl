@@ -3,7 +3,6 @@
 #include <CtrlLib/CtrlLib.h>
 #include <GLCtrl/GLCtrl.h>
 #include <VideoPackage/VideoPackage.h>
-#include "shaders.brc"
 
 class VideoCtrl : public GLCtrl {
     One<MediaDecoder> decoder;
